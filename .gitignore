@@ -1,5 +1,6 @@
-# Large market data — regenerate with preprocess_mes.py
+# Market data — regenerate with preprocess_mes.py / download_vix.py
 data/preprocessed_mes.csv
+data/vix.csv
 
 # Precomputed ORB caches — regenerated automatically on first run
 data/fixed_orb_*.npz
