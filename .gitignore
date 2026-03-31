@@ -1,0 +1,25 @@
+# Large market data — regenerate with preprocess_mes.py
+data/preprocessed_mes.csv
+
+# Precomputed ORB caches — regenerated automatically on first run
+data/fixed_orb_*.npz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Training logs
+logs/
+
+# Generated backtest CSVs — reproducible by running backtest_combined_v3.py
+results/*.csv
+
+# Learning curve model checkpoints (not the production model)
+models/funded_curve/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
